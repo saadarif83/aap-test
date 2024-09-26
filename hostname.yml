@@ -2,5 +2,5 @@
 - name: Print server hostname
   hosts: all
   tasks:
-  - name: lserver hostname
+  - debug:
       msg: "The server hostname is {{ ansible_hostname }}"
