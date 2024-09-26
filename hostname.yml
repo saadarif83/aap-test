@@ -1,3 +1,4 @@
+---
 - name: Print server hostname
   debug:
     msg: "The server hostname is {{ ansible_hostname }}"
